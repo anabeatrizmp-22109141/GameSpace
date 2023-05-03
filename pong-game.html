@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pong-game-styles.css">
+    <title>GameSpace - Pong Game</title>
+    <style>
+        @font-face {
+            font-family: pongFont;
+            src: url(resources/pong.ttf);
+        }
+
+        body {
+            font-family: pongFont;
+            margin: 0;
+            box-sizing: border-box;
+            background-color: #e3faff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            height: 100vh; width: 100%;
+        }
+
+        canvas {
+            background-color: #123554;
+        }
+
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pong Game</h1>
+    <canvas width = 700 height=500></canvas>
+    <p>Move left player by pressing W and S keys <br> Move right player by pressing up and down arrow keys</p>
+</body>
+<script src="pong-game-script.js"></script>
+</html>

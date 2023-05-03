@@ -1,6 +1,6 @@
 @font-face {
     font-family: gameplayFont;
-    src: url(images/Gameplay.ttf);
+    src: url(resources/Gameplay.ttf);
 }
 
 * {
@@ -15,7 +15,7 @@ h1 {
 }
 
 .hero-page {
-    background: url("images/wallpaper.jpg") center center;
+    background: url("resources/wallpaper.jpg") center center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 120vh;
